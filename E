@@ -151,22 +151,22 @@ public List<StudentCourse> getAllStudentsWithCourses() {
 </details>
 
 <details>
-    <summary><strong> Conclusion ✅ </strong></summary>
-
-Berdasarkan hasil pengujian menggunakan JMeter, terlihat bahwa optimasi yang dilakukan pada kode aplikasi memberikan peningkatan signifikan dalam performa, terutama dalam hal waktu respons dan latency.
-
-**1. Endpoint /all-student**
-    - Waktu respons rata-rata berkurang dari 52.768 ms menjadi 3.739 ms (92,91% lebih cepat).
-    - Latency berkurang dari 52.755 ms menjadi 3.720 ms (92,94% lebih cepat).
+<summary><strong> Conclusion ✅ </strong></summary>
     
-**2. Endpoint /all-student-names**
-    - Waktu respons rata-rata berkurang dari 2.091 ms menjadi 65,9 ms (96,85% lebih cepat).
-    - Latency berkurang dari 2.088 ms menjadi 64,3 ms (96,92% lebih cepat).
-    
-**3. Endpoint /highest-gpa**
-    - Waktu respons rata-rata berkurang dari 101,3 ms menjadi 9,9 ms (90,23% lebih cepat).
-    - Latency berkurang dari 100,7 ms menjadi 9,3 ms (90,76% lebih cepat).
+> Berdasarkan hasil pengujian menggunakan **JMeter**, terlihat bahwa optimasi yang dilakukan pada kode aplikasi memberikan peningkatan signifikan dalam performa, terutama dalam hal waktu _response_ dan _latency_.
 
-Sehingga optimasi yang saya lakukan berhasil mengurangi beban dan meningkatkan efisiensi kode, terutama dengan penggunaan _query database_ yang lebih optimal, yang berdampak besar dalam mengurangi waktu respons. Selain itu, penerapan _StringBuilder_ dan _query_ langsung pada _repository_ turut berkontribusi dalam peningkatan kinerja. Perubahan ini tidak hanya membuat proses lebih cepat, tetapi juga mengurangi konsumsi sumber daya server, sehingga aplikasi menjadi lebih efisien dan _scalable_.
+> **1. Endpoint /all-student**
+> - Waktu _response_ rata-rata berkurang dari 52.768 ms menjadi 3.739 ms (92,91% lebih cepat).
+> - _Latency_ berkurang dari 52.755 ms menjadi 3.720 ms (92,94% lebih cepat).
+    
+> **2. Endpoint /all-student-names**
+> - Waktu _response_ rata-rata berkurang dari 2.091 ms menjadi 65,9 ms (96,85% lebih cepat).
+> - _Latency_ berkurang dari 2.088 ms menjadi 64,3 ms (96,92% lebih cepat).
+    
+> **3. Endpoint /highest-gpa**
+> - Waktu _response_ rata-rata berkurang dari 101,3 ms menjadi 9,9 ms (90,23% lebih cepat).
+> - _Latency_ berkurang dari 100,7 ms menjadi 9,3 ms (90,76% lebih cepat).
+
+> Sehingga optimasi yang saya lakukan berhasil mengurangi beban dan meningkatkan efisiensi kode, terutama dengan penggunaan _query database_ yang lebih optimal, yang berdampak besar dalam mengurangi waktu _response_. Selain itu, penerapan _StringBuilder_ dan _query_ langsung pada _repository_ turut berkontribusi dalam peningkatan kinerja. Perubahan ini tidak hanya membuat proses lebih cepat, tetapi juga mengurangi konsumsi sumber daya server, sehingga aplikasi menjadi lebih efisien dan _scalable_.
 
 </details>

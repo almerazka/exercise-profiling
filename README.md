@@ -168,5 +168,4 @@ public List<StudentCourse> getAllStudentsWithCourses() {
 > - _Latency_ berkurang dari 100,7 ms menjadi 9,3 ms (90,76% lebih cepat).
 
 > Sehingga optimasi yang saya lakukan berhasil mengurangi beban dan meningkatkan efisiensi kode, terutama dengan penggunaan _query database_ yang lebih optimal, yang berdampak besar dalam mengurangi waktu _response_. Selain itu, penerapan _StringBuilder_ dan _query_ langsung pada _repository_ turut berkontribusi dalam peningkatan kinerja. Perubahan ini tidak hanya membuat proses lebih cepat, tetapi juga mengurangi konsumsi sumber daya server, sehingga aplikasi menjadi lebih efisien dan _scalable_.
-
 </details>
